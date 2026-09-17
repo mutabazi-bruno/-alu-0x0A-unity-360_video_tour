@@ -2,8 +2,10 @@
 
 A Unity VR project for Meta Quest. It takes my original Intranet 360° video tour and turns it into one bigger experience with three scenes: a main menu, the Intranet tour, and a new campus tour built from three 360° photos I shot myself on the Insta360 ONE X2.
 
-**Demo video:** [add link]
-**Capture evidence (original camera files / screenshots):** [add link]
+**Demo video:** https://youtu.be/hrfjGfawvt4
+
+**Capture evidence (original camera files / screenshots):** https://drive.google.com/drive/folders/18oWQgj6uQxZHSaUhLgPV6PzFeV7HitoL?usp=sharing
+
 
 ## What it is
 
