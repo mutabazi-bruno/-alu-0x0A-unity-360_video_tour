@@ -1,6 +1,5 @@
 using UnityEngine;
 
-// Attach to any button that changes scene and hook its OnClick to Go().
 public class SceneNavigator : MonoBehaviour
 {
     public const string MainMenu = "MainMenuScene";

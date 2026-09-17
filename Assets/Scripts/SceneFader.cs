@@ -3,10 +3,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// Full-view black fade used for every transition in the app.
-// It creates itself when the game starts, survives scene loads and sits just
-// in front of the headset camera, so it works in VR (a Screen Space Overlay
-// canvas doesn't render in the headset). No need to place it in any scene.
 public class SceneFader : MonoBehaviour
 {
     public static SceneFader Instance { get; private set; }

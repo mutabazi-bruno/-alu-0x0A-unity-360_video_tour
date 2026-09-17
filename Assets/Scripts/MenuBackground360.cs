@@ -1,12 +1,11 @@
 using UnityEngine;
 using UnityEngine.Video;
 
-// Background sphere for the main menu. Drop in a 360 video or a 360 photo.
-// With neither assigned it shows a plain dark background.
+
 [RequireComponent(typeof(MeshRenderer), typeof(VideoPlayer))]
 public class MenuBackground360 : MonoBehaviour
 {
-    [Header("Use a 360 video OR a 360 photo (video wins if both are set)")]
+    [Header("Here I can Either Use Picture Or Video")]
     public VideoClip video;
     public Texture photo;
 

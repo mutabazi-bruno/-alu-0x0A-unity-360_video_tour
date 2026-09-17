@@ -2,9 +2,6 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-// Custom campus tour: moves between 360 photo rooms with a fade.
-// Each room only lists the rooms physically connected to it, so the tour
-// stays continuous (Main Hall -> Upper Hall -> Chill Center, no skipping).
 public class PanoramaNavigator : MonoBehaviour
 {
     [System.Serializable]

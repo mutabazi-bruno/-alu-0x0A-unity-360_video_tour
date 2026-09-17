@@ -2,8 +2,6 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Video;
 
-// Intranet tour: switches between the 360 video rooms
-// (0 = LivingRoom, 1 = Cantina, 2 = Cube, 3 = Mezzanine) with a fade.
 public class HotspotNavigator : MonoBehaviour
 {
     [Tooltip("Room spheres in order: LivingRoom, Cantina, Cube, Mezzanine")]
@@ -38,8 +36,6 @@ public class HotspotNavigator : MonoBehaviour
         }
     }
 
-    // Each sphere gets its own material instance pointing at its own
-    // VideoPlayer's render texture, otherwise every room shows the same video.
     private void AssignVideoTextures()
     {
         for (int i = 0; i < spheres.Length; i++)
@@ -83,7 +79,6 @@ public class HotspotNavigator : MonoBehaviour
         videoPlayers[currentIndex].Play();
         if (xrCamera != null) spheres[currentIndex].transform.position = xrCamera.position;
 
-        // Wait for the first frame so the old image doesn't flash.
         float waited = 0f;
         VideoPlayer player = videoPlayers[currentIndex];
         while (!player.isPlaying && waited < 2f)

@@ -1,7 +1,5 @@
 using UnityEngine;
 
-// Positions a hotspot around the viewer using angles instead of raw coordinates.
-// Drag the Yaw slider until the hotspot sits over the doorway or stairs in your photo.
 [ExecuteAlways]
 public class HotspotPlacement : MonoBehaviour
 {
