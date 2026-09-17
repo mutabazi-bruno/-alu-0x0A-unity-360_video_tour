@@ -93,4 +93,4 @@ The first IL2CPP build is slow (20+ minutes on my laptop). Builds after that are
 
 ## Author
 
-Samuel Kwizera Ihimbazwe, African Leadership University. Built for the Extended 360 VR Tour assignment.
+Mutabazi Ishimwe Bruno, African Leadership University. Built for the Extended 360 VR Tour assignment.
